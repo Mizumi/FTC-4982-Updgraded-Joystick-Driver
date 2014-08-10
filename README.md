@@ -3,6 +3,12 @@ FTC #4982 Updgraded Joystick Driver
 
 FIRST Tech Challenge Team #4982's Upgraded Joystick Driver for use with RobotC.  This driver simplifies usage of joysticks even further, with automatic value updating and on-the-fly swapping of joysticks via software.
 
+How do I use it?
+=
+Simply include "upgradedJoystick.h" at the top of your program instead of the normal "JoystickDriver.c" file.
+
+What can it do?
+=
 No more calling those pesky joystick update functions - just access the values directly and they're guaranteed to be up-to-date:
 
 ```
@@ -34,4 +40,6 @@ task main()
 }
 ```
 
+Other questions?
+=
 If you have any questions, don't hesitate; send them to brandon@mechakana.com!
